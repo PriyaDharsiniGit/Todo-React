@@ -77,7 +77,7 @@ export const Main = () => {
         </td>
         <td>
         <button onClick={() => deleteTodos(index)}>Remove</button>
-        <button onClick={() => editTodos(index)}>Edit</button>
+        <button onClick={() => editTodos(index)}>Change</button>
         </td>
         </tr>
       ))}
